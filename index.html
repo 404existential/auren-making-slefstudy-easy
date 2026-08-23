@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#171614" />
+  <meta name="description" content="AUREN — your education, built around you." />
+  <title>AUREN — Your education, built around you.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="AUREN home"><span>A</span>UREN</a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#learn">Learn</a>
+      <a href="#practice">Practice</a>
+      <a href="#tests">Tests</a>
+      <a href="#community">Community</a>
+    </nav>
+    <div class="header-actions">
+      <button class="ghost-btn" data-modal="login">Log in</button>
+      <button class="dark-btn" data-modal="signup">Start learning <span>↗</span></button>
+    </div>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> The academic system for the next generation</div>
+        <h1>Study less<br><em>randomly.</em></h1>
+        <p class="hero-sub">AUREN learns how you learn, then builds the path around you.</p>
+        <div class="hero-cta">
+          <button class="dark-btn large" data-modal="signup">Build your system <span>↗</span></button>
+          <button class="text-btn" data-scroll="#features">See what’s inside <span>↓</span></button>
+        </div>
+        <div class="hero-proof"><span class="avatars"><b>R</b><b>S</b><b>A</b><b>+</b></span><span>Built for students who want more than another course library.</span></div>
+      </div>
+      <div class="hero-panel" aria-label="Preview of AUREN dashboard">
+        <div class="panel-top"><span>YOUR ACADEMIC SYSTEM</span><span class="live-dot">● LIVE</span></div>
+        <div class="panel-greeting">Good morning, Arjun.</div>
+        <p class="panel-muted">42 days until JEE Main</p>
+        <div class="focus-card">
+          <div><span class="tiny-label">TODAY’S FOCUS</span><strong>Rotational Motion</strong><small>Physics · 35 min</small></div>
+          <div class="ring"><span>78%</span></div>
+        </div>
+        <div class="mini-grid">
+          <div><span>MASTERy</span><strong>82%</strong><small>↑ 7.4%</small></div>
+          <div><span>QUESTIONS</span><strong>1,842</strong><small>this month</small></div>
+          <div><span>STREAK</span><strong>42</strong><small>days</small></div>
+          <div><span>NEXT TEST</span><strong>04d</strong><small>AUREN National</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="AUREN features">
+      <div>INFINITE PRACTICE</div><span>✦</span><div>AUREN NATIONAL</div><span>✦</span><div>AI TUTOR</div><span>✦</span><div>ACADEMIC JOURNAL</div><span>✦</span><div>ADAPTIVE PLANS</div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">Not another learning app</span>
+        <h2>There’s a lot<br><em>underneath.</em></h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-dark" id="learn">
+          <div class="feature-number">01</div>
+          <div class="feature-icon">◎</div>
+          <h3>Ask anything.<br>Actually understand it.</h3>
+          <p>Your tutor can answer, explain, simplify, teach step-by-step, quiz you, or switch to Hinglish.</p>
+          <button class="card-link" data-modal="tutor">Try the tutor <span>↗</span></button>
+        </article>
+        <article class="feature-card" id="practice">
+          <div class="feature-number">02</div>
+          <div class="feature-icon">∞</div>
+          <h3>Never run out<br>of questions.</h3>
+          <p>Adaptive practice keeps generating new problems around your syllabus, weaknesses and exam.</p>
+          <button class="card-link" data-modal="practice">Start practicing <span>↗</span></button>
+        </article>
+        <article class="feature-card feature-accent" id="tests">
+          <div class="feature-number">03</div>
+          <div class="feature-icon">◉</div>
+          <h3>Every Sunday.<br>All of India.</h3>
+          <p>Enter AUREN NATIONAL — a weekly nationwide test with rankings, analysis and a plan for what comes next.</p>
+          <button class="card-link" data-modal="national">See the next test <span>↗</span></button>
+        </article>
+        <article class="feature-card wide-card" id="community">
+          <div class="feature-number">04</div>
+          <div class="wide-copy"><div class="feature-icon">↗</div><h3>Your progress becomes a story.</h3><p>The Academic Journal turns months of questions, tests and improvements into one living record of how far you’ve come.</p></div>
+          <div class="journal-preview"><span>ACADEMIC JOURNAL</span><strong>Physics accuracy</strong><div class="bars"><i style="height:42%"></i><i style="height:55%"></i><i style="height:63%"></i><i style="height:71%"></i><i style="height:84%"></i><i style="height:91%"></i></div><small>51% → 91% · last 6 weeks</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-mark">A</div>
+      <div><span class="eyebrow">The idea</span><h2>Education shouldn't<br>make everyone follow<br><em>the same path.</em></h2></div>
+      <p>AUREN takes your goal, schedule, mistakes, strengths and pace — and turns them into an academic system that changes as you do.</p>
+    </section>
+
+    <section class="national-section">
+      <div class="national-left"><span class="eyebrow">Every week · Nationwide</span><h2>AUREN<br><em>NATIONAL</em></h2><p>One test. One country. A new benchmark every Sunday.</p><button class="dark-btn large" data-modal="national">Register for next test <span>↗</span></button></div>
+      <div class="national-score">
+        <div class="score-top"><span>LAST SUNDAY</span><span>JEE MAIN</span></div>
+        <div class="big-score">#3,842</div>
+        <div class="score-label">INDIA RANK</div>
+        <div class="score-stats"><div><strong>91.7</strong><span>PERCENTILE</span></div><div><strong>214</strong><span>MARKS</span></div><div><strong>18,421</strong><span>STUDENTS</span></div></div>
+        <div class="score-note">Mathematics is your current opportunity. AUREN has already built a targeted practice set.</div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <span class="eyebrow">Your next chapter</span>
+      <h2>Stop studying<br><em>by accident.</em></h2>
+      <button class="dark-btn large" data-modal="signup">Start with AUREN <span>↗</span></button>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#top"><span>A</span>UREN</a><p>Your education, built around you.</p><div><a href="#learn">Learn</a><a href="#practice">Practice</a><a href="#tests">Tests</a><a href="#community">Community</a></div><small>© 2026 AUREN</small></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
