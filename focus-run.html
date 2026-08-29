@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AUREN — Focus Run</title>
+<link rel="stylesheet" href="focus-run.css">
+</head>
+<body>
+<div class="topbar"><a href="index.html">AUREN</a><span>FOCUS RUN</span><span id="scoreTop">000000</span></div>
+<main>
+  <div class="hud"><span>score <b id="score">0</b></span><span>best <b id="best">0</b></span><span>speed <b id="speed">1.0x</b></span></div>
+  <section class="game-shell">
+    <canvas id="game" aria-label="AUREN Focus Run endless runner"></canvas>
+    <div id="start" class="overlay"><div><small>AUREN / FOCUS RUN</small><h1>stay on<br><em>track.</em></h1><p>three lanes · dodge the noise · collect focus</p><button id="startBtn">start run ↗</button><p class="controls">← → / A D to move · SPACE to jump</p></div></div>
+    <div id="gameOver" class="overlay hidden"><div><small>RUN ENDED</small><h1>focus<br><em>lost.</em></h1><p>score <b id="finalScore">0</b> · best <b id="finalBest">0</b></p><button id="againBtn">run again ↗</button></div></div>
+  </section>
+  <p class="note">a tiny AUREN break — no ads, no accounts, just an unnecessarily serious running game.</p>
+</main>
+<script src="focus-run.js"></script>
+</body>
+</html>
